@@ -1,5 +1,4 @@
-import React from "react";
-import SocmedBtn from "./2.2.1__SocmedBtn.jsx";
+import SocmedBtn from "./2.2.1__SocmedBtn.js";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faFacebookF,

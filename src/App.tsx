@@ -1,7 +1,6 @@
-// import { useState } from "react";
 import "./App.css";
-import MainLeftCTN from "./components/1__MainLeftCTN";
-import MainRightCTN from "./components/2__MainRightCTN.jsx";
+import MainLeftCTN from "./components/1__MainLeftCTN.tsx";
+import MainRightCTN from "./components/2__MainRightCTN";
 
 function App() {
   return (

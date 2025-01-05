@@ -1,6 +1,5 @@
-import React from "react";
-import LandingPriBtn from "./components/2.1__LandingPriBtn.jsx";
-import SocmedBtnSection from "./components/2.2__SocmedSectBtn.jsx";
+import LandingPriBtn from "./components/2.1__LandingPriBtn.js";
+import SocmedBtnSection from "./components/2.2__SocmedSectBtn.js";
 
 const MainRightCTN = () => {
   return (
