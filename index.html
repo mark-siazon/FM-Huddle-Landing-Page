@@ -4,13 +4,18 @@
 <head>
   <meta charset="UTF-8" />
   <link rel="icon" type="image/svg+xml" href="/src/assets/favicon-32x32.png" />
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400&display=swap"
+  <link
+    href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Open+Sans:wght@400;500;600;700&display=swap"
     rel="stylesheet">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Huddle Landing Page</title>
 </head>
 
-<body>
+<body class="bg-[#684BB1]
+  relative
+  bg-[url('/src/assets/bg-mobile.svg')] 
+  sm:bg-[url('/src/assets/bg-desktop.svg')] 
+  bg-no-repeat bg-right-top md:bg-right-center md:bg-contain lg:overflow-hidden">
   <div id="root"></div>
   <script type="module" src="/src/main.tsx"></script>
 </body>
