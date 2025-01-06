@@ -1,6 +1,11 @@
 import React from "react";
 
-const SocmedBtn = ({ href, icon }) => {
+interface SocmedBtnProps {
+  href: string;
+  icon: React.ReactNode;
+}
+
+const SocmedBtn: React.FC<SocmedBtnProps> = ({ href, icon }) => {
   return (
     <a
       className="group border border-white w-[58.13px] h-[59.06px] bg-transparent rounded-full flex items-center justify-center transition-all duration-300 hover:border-[#FC51C1]"
