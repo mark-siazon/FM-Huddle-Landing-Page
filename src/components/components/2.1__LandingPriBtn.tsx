@@ -21,11 +21,11 @@ const LandingPriBtn: React.FC = () => {
         className="
           w-72 sm:w-[25rem] md:w-[200px]
           h-16 sm:h-[5.625rem] md:h-[56px]
-          bg-white text-xl sm:text-2xl text-[#43337A]
+          bg-white text-xl sm:text-2xl lg:text-xl text-[#43337A]
           rounded-full font-body font-medium
           flex items-center justify-center
-          border hover:bg-[#E882E8] hover:text-white hover:border-[#861986]
-          transition-all duration-300
+          border hover:bg-[#E882E8] hover:text-white hover:border-[#861986] hover:shadow-md hover:shadow-violet-950/80 
+          transition-all duration-300 shadow-lg shadow-violet-950/40 
         "
       >
         Register

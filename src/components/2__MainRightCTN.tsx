@@ -6,16 +6,16 @@ const MainRightCTN = () => {
     <section
       className="
         main-right-ctn flex flex-col items-center md:items-end justify-center gap-10 
-        max-w-[90vw] sm:max-w-[560px] md:max-w-[540px] lg:max-w-[640px] lg:h-screen md:max-h-[610px]
-        md:mt-6 lg:mt-12 xl:mt-6
+        max-w-[90vw] sm:max-w-[560px] md:max-w-[540px] lg:max-w-[540px] lg:h-screen md:max-h-[610px] xl:max-h-[900px] 2xl:max-h-[800px]
+        md:mt-6 lg:mt-12 xl:mt-16 
       "
     >
       <div
         className="
-          flex flex-col items-center md:items-start md:max-w-[540px] lg:max-w-[450px] xl:max-w-[540px]
+          flex flex-col items-center md:items-start md:max-w-[540px] lg:max-w-[450px] xl:max-w-[540px] 2xl:max-w-[640px]
         "
       >
-        <b
+        <h1
           className="
             font-heading font-semibold tracking-wider 
             text-3xl sm:text-5xl md:text-[40px] text-center md:text-start
@@ -24,13 +24,13 @@ const MainRightCTN = () => {
           "
         >
           Build The Community Your Fans Will Love
-        </b>
+        </h1>
 
         <p
           className="
-            font-body text-xl sm:text-3xl md:text-lg text-center md:text-start
+            font-body text-xl sm:text-3xl md:text-lg 2xl:text-xl text-center md:text-start
             leading-relaxed sm:leading-normal md:leading-relaxed 
-            pt-8 sm:pt-[2.875rem] md:pt-9 pb-10 sm:pb-16 md:pb-6
+            pt-8 sm:pt-[2.875rem] md:pt-9 pb-10 sm:pb-16 md:pb-6 lg:pb-10
           "
         >
           Huddle re-imagines the way we build communities. You have a voice, but
