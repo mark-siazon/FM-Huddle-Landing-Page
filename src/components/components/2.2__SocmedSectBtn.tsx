@@ -23,7 +23,7 @@ const SocmedSectBtn = () => {
   ];
 
   return (
-    <div className="flex gap-4">
+    <div className="flex gap-4 lg:mt-0 xl:mt-20">
       {socialMediaLinks.map((link, index) => (
         <SocmedBtn key={index} href={link.href} icon={link.icon} />
       ))}
