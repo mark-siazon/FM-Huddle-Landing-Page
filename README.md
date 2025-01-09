@@ -1,54 +1,3 @@
-# React + TypeScript + Vite
-
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
-
-- Configure the top-level `parserOptions` property like this:
-
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ["./tsconfig.node.json", "./tsconfig.app.json"],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-});
-```
-
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
-
-```js
-// eslint.config.js
-import react from "eslint-plugin-react";
-
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: "18.3" } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs["jsx-runtime"].rules,
-  },
-});
-```
-
 # Frontend Mentor - Huddle Landing Page
 
 This is a solution to the [Huddle landing page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0.
@@ -80,7 +29,7 @@ Users should be able to:
 <br>
 
 Preview of initial design:
-![Design preview for the Order summary card coding challenge](./documentation/design/desktop-preview.jpg)
+![Design preview for the Order summary card coding challenge](./src/assets/design/desktop-preview.png)
 
 ### Screenshots:
 
@@ -88,11 +37,11 @@ Preview of initial design:
 
 | Fullscreen View (Desktop)                           |
 | --------------------------------------------------- |
-| ![](documentation/design-finished/0.1-Original.jpg) |
+| ![](src/assets/design-finished/0.1-Original.png) |
 
 | Animated Preview                                          |
 | --------------------------------------------------------- |
-| ![](documentation/design-finished/0.3-animatedResult.gif) |
+| ![](src/assets/design-finished/0.3-animatedResult.gif) |
 
 <br>
 
@@ -106,18 +55,18 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 | Desktop View (1440px)                              | Laptop View (1024px)                              | Tablet View (768px)                               |
 | -------------------------------------------------- | ------------------------------------------------- | ------------------------------------------------- |
-| ![](documentation/design-finished/1.0-Desktop.jpg) | ![](documentation/design-finished/1.1-Laptop.jpg) | ![](documentation/design-finished/1.2-Tablet.jpg) |
+| ![](src/assets/design-finished/1.0-Desktop.png) | ![](src/assets/design-finished/1.1-Laptop.png) | ![](src/assets/design-finished/1.2-Tablet.png) |
 
 | Mobile L (430px)                                   | Mobile M (375px)                                   | Mobile S (320px)                                   |
 | -------------------------------------------------- | -------------------------------------------------- | -------------------------------------------------- |
-| ![](documentation/design-finished/1.3-MobileL.jpg) | ![](documentation/design-finished/1.4-MobileM.jpg) | ![](documentation/design-finished/1.5-MobileS.jpg) |
+| ![](src/assets/design-finished/1.3-MobileL.png) | ![](src/assets/design-finished/1.4-MobileM.png) | ![](src/assets/design-finished/1.5-MobileS.png) |
 
 </div>
 
 ### Links:
 
-- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/)
-- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/)
+- Live Site URL: [Website Link - Click Me](https://mark-siazon.github.io/FM-Huddle-Landing-Page/)
+- Solution URL: [FrontEndMentor - Click Me](https://www.frontendmentor.io/solutions/huddle-landing-page-responsive-mobile-first-tsreactvitetailwind-IMYatKoHe7)
 
 ## My process:
 
@@ -125,10 +74,10 @@ All viewports were included (except for the 4k view), in case the observer wishe
 
 - HTML5, CSS3, JS
 - Figma / Mobile-First Approach
-
-  - Grid Layout + Flexbox
-
+  - Flexbox Layout + Responsive Web Design
 - React JS
+- Tailwind CSS
+- Typescript
 - PostCSS
 - Vite JS Webpack
 
@@ -139,7 +88,7 @@ Recap over some of the major learnings while working through this project:
 #### General things I've learned:
 
 - Review of Semantic HTML & CSS, CSS Flex Layout
-- Learned how to also use Grid Layout
+- Solidify more basic React Integration & Tailwind Usage
 - Writing DRY code by combining similar styles
 
 <hr>
