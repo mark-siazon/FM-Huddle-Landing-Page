@@ -1,6 +1,6 @@
 # Frontend Mentor - Huddle Landing Page
 
-This is a solution to the [Huddle landing page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0.
+This is a solution to the [Huddle landing page coding challenge on Frontend Mentor](https://www.frontendmentor.io/challenges/huddle-landing-page-with-a-single-introductory-section-B_2Wvxgi0).
 
 Frontend Mentor challenges help improve skills by building realistic projects.
 
@@ -29,7 +29,7 @@ Users should be able to:
 <br>
 
 Preview of initial design:
-![Design preview for the Order summary card coding challenge](./src/assets/design/desktop-preview.png)
+![Design preview for the Order summary card coding challenge](./src/assets/design/desktop-preview.jpg)
 
 ### Screenshots:
 
@@ -41,7 +41,8 @@ Preview of initial design:
 
 | Animated Preview                                          |
 | --------------------------------------------------------- |
-| ![](src/assets/design-finished/0.3-animatedResult.gif) |
+| <p align="center"><img src="https://media.giphy.com/media/JJ5ETKLKvw3JawcSIa/giphy.gif" width="100%" alt="Banner"/></p> |
+
 
 <br>
 
